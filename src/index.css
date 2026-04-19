@@ -1,1 +1,11 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@theme{
+  --font-poppins: "Poppins", sans-serif;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}

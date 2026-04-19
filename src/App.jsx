@@ -1,5 +1,17 @@
-function App() {
+import Footer from "./components/Footer/footer"
+import FooterEnd from "./components/Footer/footerEnd"
+import Header from "./components/Header/header"
+import About from "./components/Main/About"
+import Services from "./components/Main/Services"
+
+export default function App() {
   return(
-    <h2 className="bg-amber-700 text-fuchsia-600">hello world</h2>
+    <div>
+      <Header />,
+      <About />,
+      <Services />,
+      <Footer />,
+      <FooterEnd />
+    </div>
   )
 }
